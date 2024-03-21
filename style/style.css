@@ -1,0 +1,44 @@
+:root{
+    --color-primary:#EEE4B1;
+    --color-black:#171614;
+    --color-white:#FFF9F9;
+}
+
+body{
+    background-color: var(--color-black);
+}
+
+span{
+    color: var(--color-primary);
+}
+
+nav .navbar-nav .nav-item .nav-link{
+    color: var(--color-white);
+}
+
+nav .navbar-nav .nav-item .nav-link:hover{
+    color: var(--color-black);
+    background-color: var(--color-primary);
+}
+
+h2{
+    color: var(--color-primary);
+}
+
+p{
+    text-align: justify;
+}
+
+.profile img{
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+footer .nav .nav-item .nav-link{
+    color: var(--color-white);
+}
+
+footer .nav .nav-item .nav-link:hover{
+    color: var(--color-black);
+    background-color: var(--color-primary);
+}
